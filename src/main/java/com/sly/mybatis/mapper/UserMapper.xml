@@ -23,7 +23,7 @@
 	<sql id="user_sql">
 		  `id`,
 		  `username`,
-		  `sex`,
+		  `sex` as 'gender',
 		  `birthday`,
 		  `address`
 	</sql>
